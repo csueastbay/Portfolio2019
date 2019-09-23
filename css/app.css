@@ -1,0 +1,169 @@
+h1, ul, li, section {
+  text-align: center;
+}
+
+li {
+  padding: 5px;
+}
+
+.grid-container {
+  outline: 1px solid: blue;
+  float: left;
+  width: 40%;
+  margin-left: 20px;
+}
+
+.proof {
+  border: 1px solid:Red
+}
+
+#logo {
+  display: flex;
+}
+
+body {
+  background-color: darkgreen;
+}
+
+ul {
+  padding: 5px;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+div {
+  padding: 5px;
+}
+
+h1 {
+  background-color: darkgreen;
+  font-family: Georgia;
+  color: white;
+  padding: 15px;
+}
+
+h2 {
+  color: white;
+  font-family: georgia;
+}
+
+h3 {
+  font-family: georgia;
+}
+
+h6 {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  font-family: georgia;
+}
+
+footer {
+  color: white;
+  font-family: italic;
+}
+
+label {
+  color: white;
+}
+
+.Subtitle {
+  background-color: white;
+}
+
+.Subtitle a {
+  display: block;
+  width: 100%;
+}
+
+.Highlight {
+  background-color: lightgreen;
+}
+
+.information {
+  margin-left: 40px;
+  margin-right: 40px;
+  float: left;
+  text-align: center;
+  width: 33.33%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.aboutmecolor {
+  color: black;
+}
+
+.column {
+  float: right;
+  width: auto;
+  height: auto;
+  text-align: center;
+  margin-right: 40px;
+}
+
+.bio {
+  text-align: center;
+  margin-top: 50px;
+  background-color: white;
+  color: black;
+}
+
+.image {
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: center;
+  float: center;
+  width: 15%;
+}
+
+.bio:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.image:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+    font-size: 40px;
+  }
+
+  .image {
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .information {
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .bio {
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .subtitle {
+    width: 100%;
+    font-size: 10px;
+  }
+}
